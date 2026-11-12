@@ -1,0 +1,11 @@
+# dsh-model-picker bundle patch: one host row.
+#
+# The host half does nothing; the selector is the browser half (lib/client.js),
+# which takes the composer's model seat (`conversation.input.model`) over the
+# shipped one. The row id is stable: a user's `- id: dsh-model-picker /
+# disabled: true` in $DSH_HOME/cordis.patch.yml addresses it, and DeepSeek
+# Harness's own selector returns.
+
+- insert:
+    - id: dsh-model-picker
+      name: dsh-model-picker
