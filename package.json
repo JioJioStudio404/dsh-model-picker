@@ -1,6 +1,6 @@
 {
   "name": "dsh-model-picker",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "The composer's model selector for DeepSeek Harness as a cascading menu: provider, then that provider's models only, then the model's reasoning levels. Each provider shows the model last used with it; the same session catalog and selection as DeepSeek Harness's own selector and /model.",
   "type": "module",
   "main": "lib/index.js",
