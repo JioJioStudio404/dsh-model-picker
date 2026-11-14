@@ -1,7 +1,8 @@
 {
   "name": "dsh-model-picker",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "The composer's model selector for DeepSeek Harness as a cascading menu: provider, then that provider's models only, then the model's reasoning levels. Each provider shows the model last used with it; the same session catalog and selection as DeepSeek Harness's own selector and /model.",
+  "icon": "icon.svg",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,13 +28,15 @@
     "cordis.patch.yml",
     "README.md",
     "CHANGELOG.md",
-    "LICENSE"
+    "LICENSE",
+    "icon.svg"
   ],
   "scripts": {
     "check": "node --check lib/index.js && node --check lib/client.js"
   },
   "engines": {
-    "node": ">=24.9"
+    "node": ">=24.9",
+    "dsh": ">=0.2.2-rc.1"
   },
   "keywords": [
     "deepseek-harness",
